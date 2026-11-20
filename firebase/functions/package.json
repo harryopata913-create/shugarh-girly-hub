@@ -1,0 +1,16 @@
+{
+  "name": "shugharhs-girly-hub-functions",
+  "description": "Order notification triggers for Shugharh's Girly Hub",
+  "private": true,
+  "engines": {
+    "node": "22"
+  },
+  "main": "index.js",
+  "scripts": {
+    "lint": "node --check index.js"
+  },
+  "dependencies": {
+    "firebase-admin": "^14.5.1",
+    "firebase-functions": "^7.4.0"
+  }
+}

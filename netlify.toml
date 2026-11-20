@@ -1,0 +1,8 @@
+[build]
+  publish = "public"
+  command = ""
+
+[[redirects]]
+  from = "/admin"
+  to = "/admin/login.html"
+  status = 302
